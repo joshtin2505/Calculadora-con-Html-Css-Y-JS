@@ -39,9 +39,11 @@ function calcular() {
                 pResultado.innerText = "Calculo imposible";
                 break;            
             }
+            pResultado.style = "color:black";
             pResultado.innerText = " = " + resultado;
     }
     else{
+        pResultado.style = "color:red";
         pResultado.innerText = "Calculo imposible";
     }
    // alert("apretaste el boton calcular")
