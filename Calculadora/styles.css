@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    
+    background-color: darkslategrey;
+}
+
+div {
+    background-color: white;
+    margin: 0 200px;
+    margin-top: 25%;
+    border: 2px solid black;
+}
+input{
+    display: block;
+    margin:  auto;
+    margin-bottom: 15px; 
+}
+#op1 {
+    text-align: center;
+}
+#operacion {
+    text-align: center;
+}
+#op2 {
+    text-align: center;
+}
+#calcular {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
